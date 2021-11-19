@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BluetoothDemo</string>
+    <string-array name="action">
+        <item>请求必要权限</item>
+        <item>判断是否有蓝牙设备</item>
+        <item>判断是否已开启蓝牙设备</item>
+        <item>开启蓝牙设备</item>
+        <item>获取绑定设备</item>
+        <item>搜索周边设备</item>
+        <item>取消搜索</item>
+        <item>连接选中设备</item>
+        <item>断开连接设备</item>
+        <item>发送消息</item>
+    </string-array>
+</resources>
