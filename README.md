@@ -3,7 +3,20 @@ bluetooth connect format , a easy way to connect bluetooth socket
 
 
 # dependence
-implementation 'com.github.caixingcun:BluetoothLib:1.0'
+
+app build.gradle
+~~~
+dependencies {
+    implementation 'com.github.caixingcun:BluetoothLib:1.0'
+}
+~~~
+project build.gradle 
+~~~
+      repositories {
+        maven { url 'https://jitpack.io' }
+     }
+~~~
+
 
 #desc
 first you need require permission by yourself
