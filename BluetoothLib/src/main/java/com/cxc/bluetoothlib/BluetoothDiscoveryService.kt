@@ -128,7 +128,7 @@ class BluetoothDiscoveryService {
             fun onDestroy() {
                 try {
                     blueToothAdapter?.cancelDiscovery()
-                    context?.unregisterReceiver(discoveryReceiver)
+                    context.unregisterReceiver(discoveryReceiver)
                 } catch (e: IllegalArgumentException) {
                     e.printStackTrace()
                 }

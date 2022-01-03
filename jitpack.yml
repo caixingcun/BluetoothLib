@@ -1,6 +1,2 @@
 jdk:
  - openjdk11
-
-install:
-  - ./gradlew :BluetoothLib:build :BluetoothLib:publishToMavenLocal
-  - find. -name "*.aar"
